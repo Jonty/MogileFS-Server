@@ -1,3 +1,9 @@
+mogilefs-server (2.43-7) unstable; urgency=low
+
+  * Build custom last.fm debian package with all patches and plugins.
+
+ -- Jonty Wareing <jonty@last.fm>  Thu, 18 Oct 2010 17:16:33 -0000
+
 mogilefs-server (1.00-2) unstable; urgency=low
 
   * fix data loss bug when the 'tempfile' table is InnoDB and the
