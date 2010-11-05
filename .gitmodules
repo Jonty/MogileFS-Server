@@ -1,0 +1,6 @@
+[submodule "lib/MogileFS/Plugin"]
+	path = lib/MogileFS/Plugin
+	url = git://github.com/Jonty/MogileFS-Plugin-SortByWait.git
+[submodule "lib/MogileFS/ReplicationPolicy"]
+	path = lib/MogileFS/ReplicationPolicy
+	url = git://github.com/Jonty/MogileFS-Plugin-OnHosts.git
