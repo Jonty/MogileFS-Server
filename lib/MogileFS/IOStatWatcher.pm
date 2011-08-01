@@ -155,11 +155,11 @@ sub event_read {
         foreach my $line (split /\n+/, $1) {
             next unless $line;
             my ($devnum, $util, $await, $svctm) = split /\s+/, $line;
-            $stats{$devnum} = (
+            $stats{$devnum} = {
                 await => $await,
                 svctm => $svctm,
                 util => $util
-            );
+            };
         }
         $self->{watcher}->got_stats($self->{host}, \%stats);
     }
